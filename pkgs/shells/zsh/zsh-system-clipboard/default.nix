@@ -2,13 +2,13 @@
 
 stdenv.mkDerivation rec {
   pname = "zsh-system-clipboard";
-  version = "0.8.0";
+  version = "2024-07-18";
 
   src = fetchFromGitHub {
     owner = "kutsan";
     repo = "zsh-system-clipboard";
-    rev = "v${version}";
-    sha256 = "sha256-VWTEJGudlQlNwLOUfpo0fvh0MyA2DqV+aieNPx/WzSI=";
+    rev = "8b4229000d31e801e6458a3dfa2d60720c110d11";
+    sha256 = "phsIdvuqcwtAVE1dtQyXcMgNdRMNY03/mIzsvHWPS1Y=";
   };
 
   strictDeps = true;
